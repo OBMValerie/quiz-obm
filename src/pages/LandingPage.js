@@ -132,7 +132,7 @@ const LandingPage = () => {
           <h2 className="text-3xl font-bold mb-4">Prêt à transformer votre entreprise ?</h2>
           <p className="text-xl text-gray-600 mb-8">Réservez un appel stratégique pour découvrir comment je peux vous aider à atteindre vos objectifs</p>
                       <iframe
-              src="VOTRE_LIEN_CALENDLY"
+              src="calendly.com/obmvalerie"
               width="100%"
               height="100%"
               className="w-full min-h-[600px]"

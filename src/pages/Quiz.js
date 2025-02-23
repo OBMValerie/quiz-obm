@@ -80,7 +80,7 @@ function App() {
         title: 'Un accompagnement OBM serait très bénéfique',
         description: 'Votre entreprise montre des signes clairs de besoin en structuration. Un accompagnement vous permettrait de poser des fondations solides pour une croissance sereine.',
         cta: 'Réserver un appel stratégique',
-        link: 'VOTRE_LIEN_CALENDLY_1'
+        link: 'calendly.com/obmvalerie'
       });
     } else if (total <= maxPossible * 0.7) {
       setResult({
@@ -88,7 +88,7 @@ function App() {
         title: 'Un échange pourrait être utile',
         description: 'Vous avez de bonnes bases, mais certains aspects pourraient être optimisés. Discutons de comment améliorer votre organisation.',
         cta: 'Planifier un échange',
-        link: 'VOTRE_LIEN_CALENDLY_2'
+        link: 'calendly.com/obmvalerie'
       });
     } else {
       setResult({
@@ -96,7 +96,7 @@ function App() {
         title: 'Votre entreprise est bien structurée',
         description: 'Félicitations ! Vous avez mis en place une organisation efficace. Je peux vous partager quelques conseils pour maintenir cette dynamique.',
         cta: 'Recevoir des conseils par email',
-        link: 'VOTRE_LIEN_CALENDLY_3'
+        link: 'calendly.com/obmvalerie'
       });
     }
   };
