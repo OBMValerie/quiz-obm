@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import { Sparkles, ArrowRight, Target, Cog, TrendingUp } from 'lucide-react';
 
 const LandingPage = () => {
@@ -10,9 +10,9 @@ const LandingPage = () => {
           <div className="text-xl font-bold text-purple-700">Votre Nom</div>
           <div className="space-x-6">
             <a href="/" className="text-gray-600 hover:text-purple-700">Accueil</a>
-            <a href="/quiz" className="bg-purple-100 text-purple-700 px-4 py-2 rounded-md hover:bg-purple-200">
+            <Link to="/quiz" className="bg-purple-100 text-purple-700 px-4 py-2 rounded-md hover:bg-purple-200">
               Faire le test
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
